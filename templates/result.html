@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iris classification</title>
+</head>
+<body>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<h3>{{ result_msg }} </h3>
+<img src={{ url_for('static', filename=iris_image) }}>
+</body>
+</html>
